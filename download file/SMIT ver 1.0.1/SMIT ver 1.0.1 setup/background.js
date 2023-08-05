@@ -1,0 +1,1 @@
+(()=>{let e=null;chrome.browserAction.onClicked.addListener((function(){chrome.windows.getAll({},(()=>{if(e)chrome.windows.update(e.id,{focused:!0});else{var o=screen.width/2-500,d=screen.height/2-400;chrome.windows.create({url:"popup.html",type:"popup",width:1e3,height:800,left:o,top:d},(o=>{e=o}))}})),chrome.windows.onRemoved.addListener((o=>{e&&e.id===o&&(e=null)}))}))})();

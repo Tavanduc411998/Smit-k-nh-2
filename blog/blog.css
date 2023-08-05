@@ -1,0 +1,50 @@
+.breadcrumb {
+  padding-left: 5%;
+}
+
+.blog-container {
+  display: flex;
+  padding: 0 5%;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.blog-container h1 {
+  font-size: 32px;
+}
+
+.blog-container h2 {
+  font-size: 28px;
+}
+
+.blog-container h4 {
+  font-size: 24px;
+}
+
+.blog-container img {
+  width: 100%;
+}
+
+.blog-container span {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.main-blog {
+  width: 65%;
+  border: 1px solid #ccc;
+  padding: 2%;
+}
+
+.sub-blog {
+  width: 25%;
+}
+
+.blog-list {
+  list-style-type: none;
+}
+
+.blog-list-decimal {
+  list-style-type: decimal;
+}

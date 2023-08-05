@@ -10,7 +10,11 @@
             }); var f = d.getElementsByTagName(s)[0],
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WZT3BKG');</script>
+        })(window, document, 'script', 'dataLayer', 'GTM-WZT3BKG');
+
+        // Conversion rate googlads
+        gtag('config', 'AW-11198180459');
+    </script>
     <!-- End Google Tag Manager -->
 
     <!-- Google tag (gtag.js) -->
@@ -21,7 +25,28 @@
         gtag('js', new Date());
 
         gtag('config', 'G-LGLQJ77MJM');
+
+        // Conversion rate googlads
+        gtag('config', 'AW-11198180459');
     </script>
+
+    <!-- Event snippet for download file conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-11198180459/jfvMCNLKlKYYEOvY2tsp',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+
 
     <meta charset="utf-8">
     <title>Ads Check by SMIT</title>
@@ -76,6 +101,8 @@
     <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=938455587324896&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
+
+
 </head>
 
 <body>
@@ -139,28 +166,30 @@
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
 
-                    <a href="download file/SMIT ver 3.6.2.zip" id="download-btn-js"
-                        class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3" download="SMIT ver 3.6.2.zip"
-                        onclick="swapFunc()">Lastest Version</a>
+                    <a href="" id="download-btn-js"
+                        class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3">Lastest Version</a>
 
 
 
                 </div>
             </nav>
 
-            <div class="container-xxl py-5 bg-primary hero-header mb-5">
+            <div class=" container-xxl py-5 bg-primary hero-header mb-5">
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated zoomIn">Smit - Professional advertising support solution
+                            <h1 class="text-white mb-4 animated zoomIn">Smit - Professional advertising support
+                                solution
                             </h1>
-                            <p class="text-white pb-3 animated zoomIn">Smit is the choice for maximum support for
-                                advertisers led by marketing experts. Whether personal or business, Smit will also help
+                            <p class="text-white pb-3 animated zoomIn">Smit is the choice for maximum support
+                                for
+                                advertisers led by marketing experts. Whether personal or business, Smit will
+                                also help
                                 the advertising process to be more effective.</p>
 
-                            <a href="download file/SMIT ver 3.6.2.zip" id="download-btn-js2"
+                            <a href="download file/SMIT ver 1.0.1.zip" id="download-btn-js2"
                                 class="btn btn-light rounded-pill me-3 animated slideInLeft download-btn-js download-btn"
-                                download="SMIT ver 3.6.2.zip" onclick="swapFunc()">Download
+                                download="SMIT ver 1.0.1.zip">Download
                                 <p class="fz12">Window Only</p>
                             </a>
 
@@ -173,10 +202,7 @@
                             <a href=""
                                 class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact
                                 Us</a>
-                            <p class="note">Can't download? <a class="text-warning"
-                                    href="https://www.mediafire.com/file/96xuyde9r5gy81g/SMIT_ver_3.6.2.zip/file">Click
-                                    here</a>
-                            </p>
+
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
                             <h2 class="text-white mb-4 animated zoomIn">Smit Download Tutorial</h2>
@@ -316,10 +342,10 @@
 
 
         <!-- Why Should Start -->
-        <div class="container-xxl py-5">
+        <!-- <div class="container-xxl py-5">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                    <h2 class="mt-2">Why Should Our Services</h2>
+                    <h2 class="mt-2">Ads check by SMIT can help you</h2>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -393,7 +419,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Why Should End -->
 
 
